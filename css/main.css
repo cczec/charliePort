@@ -1,14 +1,29 @@
 /* ==========================================================================
 Author's custom styles
 ========================================================================== */
-  .navbar-nav{
-    float: right;
-  }
-  .full-width{
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    width: 100%;
-  }
-  
+.navbar-nav{
+  float: right;
+}
+
+.full-width{
+  margin: 0 auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+}
+
+.round{
+ display: inline;
+ border-radius: 100%;
+}
+
+.image-row li{
+ display: inline;
+ list-style-type: none;
+}
+
+.image-col li{
+ list-style-type: none;
+}
