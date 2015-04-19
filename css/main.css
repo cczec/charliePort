@@ -1,0 +1,14 @@
+/* ==========================================================================
+Author's custom styles
+========================================================================== */
+  .navbar-nav{
+    float: right;
+  }
+  .full-width{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+  }
+  
