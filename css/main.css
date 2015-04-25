@@ -15,6 +15,7 @@ Author's custom styles
   width: 100%;
 }
 
+/* Index page */
 .round{
  display: inline;
  border-radius: 100%;
@@ -63,4 +64,14 @@ Author's custom styles
   font-size: 1.65em;
   font-family: 'Archivo Narrow', sans-serif;
   font-weight: 100;
+}
+
+/* Work Page */
+.work-caption{
+ text-align: center;
+}
+
+.work-dots{
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
