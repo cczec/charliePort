@@ -27,3 +27,26 @@ Author's custom styles
 .image-col li{
  list-style-type: none;
 }
+
+.workBox{
+  margin: 3% 2%;
+  border: 1px solid black;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  min-width: 100%;
+}
+
+.carousel-indicators{
+  left: 20%;
+  bottom: 14%;
+}
+
+.carousel-caption{
+  position: absolute;
+  right: 69%;
+  bottom: 20%;
+  left: 9%;
+  bottom: 45%;
+}
