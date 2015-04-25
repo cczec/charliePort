@@ -14,6 +14,7 @@ Author's custom styles
   width: 100%;
 }
 
+/* Index page */
 .round{
  display: inline;
  border-radius: 100%;
@@ -49,4 +50,14 @@ Author's custom styles
   bottom: 20%;
   left: 9%;
   bottom: 45%;
+}
+
+/* Work Page */
+.work-caption{
+ text-align: center;
+}
+
+.work-dots{
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
