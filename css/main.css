@@ -1,6 +1,7 @@
 /* ==========================================================================
 Author's custom styles
 ========================================================================== */
+
 .navbar-nav{
   float: right;
 }
@@ -45,8 +46,21 @@ Author's custom styles
 
 .carousel-caption{
   position: absolute;
-  right: 69%;
-  bottom: 20%;
-  left: 9%;
-  bottom: 45%;
+  right: 20%;
+  left: 19%;
+  bottom: 27%;
+}
+
+.carousel-caption h3{
+    text-align: left;
+  font-size: 3.75em;
+  font-family: font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.carousel-caption p{
+    text-align: left;
+  font-size: 1.65em;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-weight: 100;
 }
