@@ -23,7 +23,7 @@
 
           <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
         </head>
-        <body>
+        <body id="top">
           <!--[if lt IE 8]>
           <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
           <![endif]-->
@@ -37,13 +37,13 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Brand Icon</a>
+                <a class="navbar-brand" href="#top">Brand Icon</a>
               </div>
               <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                   <li><a href="html/work.html">Work</a></li>
-                  <li><a href="html/about.html">About</a></li>
-                  <li><a href="html/contact.html">Contact</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#contact">Contact</a></li>
                 </ul>
               </div><!--/.navbar-collapse -->
             </div>
@@ -110,7 +110,7 @@
             </div>
             <!-- End Image Carousel -->
 
-            <div class="row">
+            <div id="about" class="row">
               <div class="col col-xs-4">
                 <img class="img-responsive" src="http://placehold.it/900x900" alt="...">
               </div>
@@ -138,7 +138,7 @@
 
           <!-- Example row of columns -->
           <div class="container-fluid" style="background-color: #666666;">
-          <div class="row">
+          <div id="contact" class="row">
             <div class="col col-sm-4" style="margin-left: 10em; margin-top: 8em; margin-bottom: 8em;">
             <h2>Say Hello!<h2>
             <form>
