@@ -24,7 +24,7 @@
 
           <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
         </head>
-        <body>
+        <body id="top">
           <!--[if lt IE 8]>
           <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
           <![endif]-->
@@ -38,13 +38,13 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Brand Icon</a>
+                <a class="navbar-brand" href="#top">Brand Icon</a>
               </div>
               <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                   <li><a href="html/work.html">Work</a></li>
-                  <li><a href="html/about.html">About</a></li>
-                  <li><a href="html/contact.html">Contact</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#contact">Contact</a></li>
                 </ul>
               </div><!--/.navbar-collapse -->
             </div>
@@ -111,9 +111,18 @@
             </div>
             <!-- End Image Carousel -->
 
+<<<<<<< HEAD
             <div class="row">
               <div class="col col-sm-6 about-text">
                 <h2>Charlie Czechowski</h2>
+=======
+            <div id="about" class="row">
+              <div class="col col-xs-4">
+                <img class="img-responsive" src="http://placehold.it/900x900" alt="...">
+              </div>
+              <div class="col col-xs-8">
+                <h3>Charlie Czechowski</h3>
+>>>>>>> 3c7e2674952dc8329a5a8b1fd5d27074794fbff7
                 <h4>Graphic & Web Designer</h4>
                 <p style="line-height: 1.75em; padding-top: 1em;">Charlie Czechowski is a San Francisco-based designer and foodie. Working with such renown academia as Stanford University, she has curated campaigns that help advance educational programs through original print and web design. Her collaboration with numerous food outreach programs with such partners as the Culinary Institute of America, Google and the University of California, Riverside, allowed her to promote and advocate culinary development and healthy nutrition. </p>
                 <!--
@@ -139,7 +148,7 @@
           </div>
           <!-- Example row of columns -->
           <div class="container-fluid" style="background-color: #666666;">
-          <div class="row">
+          <div id="contact" class="row">
             <div class="col col-sm-4" style="margin-left: 10em; margin-top: 8em; margin-bottom: 8em;">
             <h2>Say Hello!<h2>
             <form>
