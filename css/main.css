@@ -77,6 +77,10 @@ ul.image-row {
    letter-spacing: 2px;
 }
 
+.about-text{
+  padding: 2% 6% 0% 10%;
+}
+
 /* Work Page */
 .work-caption{
  text-align: center;
@@ -87,12 +91,6 @@ ul.image-row {
   margin-bottom: 10px;
 }
 
-<<<<<<< HEAD
-.about-text{
-  width: 52%;
-  padding: 2% 6% 0% 10%;
-}
-=======
 .work-box{
   background-color: #FFF;
   margin: 3% 2%;
@@ -105,4 +103,3 @@ ul.image-row {
   background-color: #ddd;
   opacity: .9;
 }
->>>>>>> 3c7e2674952dc8329a5a8b1fd5d27074794fbff7
