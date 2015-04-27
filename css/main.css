@@ -1,16 +1,92 @@
 /* ==========================================================================
 Author's custom styles
 ========================================================================== */
-@media(max-width: @screen-xs){
-  body{
-    font-size: 6px;
-  }
+@media all and (max-width: 600px) {
+.carousel-caption h3{
+  text-align: left;
+  font-size: 1.35em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
 }
 
-@media(max-width: @screen-sm){
-  body{
-    font-size: 12px;
-  }
+.carousel-caption p{
+  text-align: left;
+  font-size: .7em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.carousel-caption{
+  position: absolute;
+  right: 50%;
+  left: 15%;
+  bottom: 10%;
+}
+
+.carousel-indicators{
+  left: 25%;
+  bottom: 10%;
+}
+}
+
+@media all and (min-width: 600px) and (max-width: 1200px) {
+.carousel-caption h3{
+  text-align: left;
+  font-size: 2.75em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+
+.carousel-caption p{
+  text-align: left;
+  font-size: .85em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.carousel-caption{
+  position: absolute;
+  right: 17%;
+  left: 15%;
+  bottom: 27%;
+}
+
+.carousel-indicators{
+  left: 17%;
+  bottom: 23%;
+}
+
+}
+
+@media all and (min-width: 1200px) {
+.carousel-caption h3{
+  text-align: left;
+  font-size: 3.75em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+
+.carousel-caption p{
+  text-align: left;
+  font-size: 1.55em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.carousel-caption{
+  position: absolute;
+  right: 17%;
+  left: 15%;
+  bottom: 27%;
+}
+
+.carousel-indicators{
+  left: 17%;
+  bottom: 23%;
+}
 }
 
 .navbar-nav{
@@ -28,20 +104,20 @@ Author's custom styles
 
 /* Index page */
 .round{
- display: inline;
- border-radius: 100%;
+  display: inline;
+  border-radius: 100%;
 }
 
 ul.image-row {
   margin-bottom: 0px;
 }
 .image-row li{
- display: inline;
- list-style-type: none;
+  display: inline;
+  list-style-type: none;
 }
 
 .image-col li{
- list-style-type: none;
+  list-style-type: none;
 }
 
 
@@ -50,40 +126,13 @@ ul.image-row {
   min-width: 100%;
 }
 
-.carousel-indicators{
-  left: 17%;
-  bottom: 23%;
-}
-
-.carousel-caption{
-  position: absolute;
-  right: 17%;
-  left: 15%;
-  bottom: 27%;
-}
-
-.carousel-caption h3{
-    text-align: left;
-  font-size: 3.75em;
-  font-family: font-family: 'Raleway', sans-serif;
-  font-weight: 500;
-}
-
-.carousel-caption p{
-    text-align: left;
-  font-size: 1.55em;
-  font-family: font-family: 'Raleway', sans-serif;
-  font-weight: 100;
-   letter-spacing: 2px;
-}
-
 .about-text{
   padding: 2% 6% 0% 10%;
 }
 
 /* Work Page */
 .work-caption{
- text-align: center;
+  text-align: center;
 }
 
 .work-dots{
