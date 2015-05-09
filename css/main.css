@@ -1,6 +1,33 @@
 /* ==========================================================================
 Author's custom styles
 ========================================================================== */
+/* .carousel-indicators{ */
+/*   left: 17%; */
+/*   bottom: 23%; */
+/* } */
+
+/* .carousel-caption{ */
+/*   position: absolute; */
+/*   right: 17%; */
+/*   left: 15%; */
+/*   bottom: 27%; */
+/* } */
+
+/* .carousel-caption>h3{ */
+/*     text-align: left; */
+/*   font-size: 3.75em; */
+/*   font-family: 'Raleway', sans-serif; */
+/*   font-weight: 500; */
+/* } */
+
+/* .carousel-caption>p{ */
+/*     text-align: left; */
+/*   font-size: 1.55em; */
+/*   font-family: 'Raleway', sans-serif; */
+/*   font-weight: 100; */
+/*    letter-spacing: 2px; */
+/* } */
+
 @media all and (max-width: 600px) {
 .carousel-caption h3{
   text-align: left;
@@ -30,14 +57,8 @@ Author's custom styles
 }
 }
 
-@media all and (min-width: 600px) and (max-width: 1200px) {
-.carousel-caption h3{
-  text-align: left;
-  font-size: 2.75em;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 500;
-}
 
+@media all and (min-width: 600px) and (max-width: 1200px) {
 .carousel-caption p{
   text-align: left;
   font-size: .85em;
@@ -57,7 +78,6 @@ Author's custom styles
   left: 17%;
   bottom: 23%;
 }
-
 }
 
 @media all and (min-width: 1200px) {
@@ -151,4 +171,35 @@ ul.image-row {
   cursor: pointer;
   background-color: #ddd;
   opacity: .9;
+}
+
+.work-caption h1{
+  font-size: 1.45em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+.work-caption p{
+  font-size: .80em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+/* Project Page*/
+.headerProject{
+  min-width: 100%;
+}
+
+.background {
+  background-color: #f8f7f5;
+}
+
+.background h3 {
+ text-align: center;
+}
+
+.background p {
+ text-align: center;
 }
