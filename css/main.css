@@ -62,17 +62,17 @@ ul.image-row {
   bottom: 27%;
 }
 
-.carousel-caption h3{
+.carousel-caption>h3{
     text-align: left;
   font-size: 3.75em;
-  font-family: font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 500;
 }
 
-.carousel-caption p{
+.carousel-caption>p{
     text-align: left;
   font-size: 1.55em;
-  font-family: font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 100;
    letter-spacing: 2px;
 }
@@ -102,4 +102,35 @@ ul.image-row {
   cursor: pointer;
   background-color: #ddd;
   opacity: .9;
+}
+
+.work-caption h1{
+  font-size: 1.45em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+.work-caption p{
+  font-size: .80em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+/* Project Page*/
+.headerProject{
+  min-width: 100%;
+}
+
+.background {
+  background-color: #f8f7f5;
+}
+
+.background h3 {
+ text-align: center;
+}
+
+.background p {
+ text-align: center;
 }
