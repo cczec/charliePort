@@ -1,4 +1,11 @@
 $(function() {
+  $('a[data-slide="prev"]').click(function() {
+      $('#carousel-example-generic').carousel('prev');
+  });
+
+  $('a[data-slide="next"]').click(function() {
+      $('#carousel-example-generic').carousel('next');
+  });
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
