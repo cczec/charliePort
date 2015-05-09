@@ -1,6 +1,30 @@
 /* ==========================================================================
 Author's custom styles
 ========================================================================== */
+/* NAV */
+.navbar{
+  background-color: #ebebeb;
+  background-image: none;
+  border: none;
+  padding: 2%;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+  color: #484848;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.navbar-toggle{
+  background-color: #484848;
+  border: none;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar{
+  background-color: #ddd;
+}
+
+/* Main */
 @media all and (max-width: 600px) {
 .carousel-caption h3{
   text-align: left;
@@ -243,14 +267,29 @@ button{
   min-width: 100%;
 }
 
-.background {
-  background-color: #f8f7f5;
+@media all and (max-width: 600px) {
+.projectText{
+  background-color: #ededed;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  padding: 5% 15%;
+}
 }
 
-.background h3 {
-  text-align: center;
+@media all and (min-width: 600px) {
+.projectText{
+  background-color: #ededed;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  padding: 5% 25%;
+}
 }
 
-.background p {
-  text-align: center;
+.projectText h3{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+.projectText p {
+  line-height: 200%;
 }
