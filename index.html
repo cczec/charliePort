@@ -39,8 +39,8 @@
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li><a href="html/work.html">Work</a></li>
           <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div><!--/.navbar-collapse -->
@@ -110,10 +110,10 @@
 
     <!-- About -->
     <div id="about" class="row">
-      <div class="col col-sm-4 img-padding">
-        <img class="img-responsive img-round" src="images/charlie_profile_pic-background.png" alt="Charlie Czechowski">
+      <div class="col col-xs-offset-4 col-xs-4 col-sm-4 col-sm-offset-0 img-padding">
+        <img class="img-responsive img-round" src="images/port-pic-square.jpg" alt="Charlie Czechowski">
       </div>
-      <div class="col col-sm-8 about-text">
+      <div class="col col-xs-12 col-sm-8 about-text">
         <h3>Charlie Czechowski</h3>
         <h4>Graphic & Web Designer</h4>
         <p>Charlie Czechowski is a San Francisco-based designer and foodie. Working with such renown academia as Stanford University, she has curated campaigns that help advance educational programs through original print and web design. Her collaboration with numerous food outreach programs with such partners as the Culinary Institute of America, Google and the University of California, Riverside, allowed her to promote and advocate culinary development and healthy nutrition. </p>
@@ -123,13 +123,15 @@
 
     <!-- Work -->
     <div id="work" class="row">
-      <div class="col col-sm-12 text-center">
-        <h2><i class="fa fa-pencil-square"></i>My Work</h2>
+      <div id="workTitle" class="col col-sm-12 text-center">
+        <i class="fa fa-pencil-square"></i><h2>My Work</h2>
       </div>
       <div class="col col-sm-8 col-sm-offset-2">
-        <div class="row">
+        <div id="workContainer" class="row">
           <div class="col col-sm-4 work-thumbnail">
-            <img class="img-responsive" src="images/band-work.jpg">
+            <a href="html/pages/TK_project.html">
+              <img class="img-responsive" src="images/band-work.jpg">
+            </a>
           </div>
           <div class="col col-sm-4 work-thumbnail">
             <img class="img-responsive" src="images/band-work.jpg">
@@ -153,7 +155,7 @@
     <!-- Example row of columns -->
     <div id="contact" class="row">
       <div class="col col-xs-12 col-sm-12 col-md-8">
-        <h2>Say Hello!<h2>
+        <h2 id="contactTitle">Say Hello!<h2>
             <form>
               <div class="form-group">
                 <input type="text" class="form-control" id="name" placeholder="Name (required)" required>
@@ -167,18 +169,18 @@
               <div class="form-group">
                 <textarea type="text" class="form-control" rows="8" id="message" placeholder="Write you message here"></textarea>
               </div>
-              <button type="submit" class="btn btn-default">Submit</button>
+              <button type="submit" class="btn btn-default float-right">Submit</button>
             </form>
           </div>
           <div class="col col-sm-4">
             <div class="bottom">
               <ul class="image-col">
                 <li>
-                  <i class="glyphicon glyphicon-info-sign"></i>
+                  <i class="glyphicon glyphicon-comment"></i>
                   951.775.3812
                 </li>
                 <li>
-                  <i class="glyphicon glyphicon-info-sign"></i>
+                  <i class="fa fa-envelope-o"></i>
                   cczec002@gmail.com
                 </li>
                 <li>
@@ -188,16 +190,11 @@
               </ul>
             </div>
           </div>
+          <p class="footer"></p>
         </div>
       </div>
     </div>
-
-    <hr>
   </div> <!-- /container -->
-
-  <footer>
-    <p>&copy; Charlie Czechowski 2015</p>
-  </footer>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script>
     window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
