@@ -1,17 +1,20 @@
 /* ==========================================================================
 Author's custom styles
 ========================================================================== */
+body{
+  padding-bottom: 0px;
+}
+
 /* NAV */
 .navbar{
   background-color: #ebebeb;
   background-image: none;
   border: none;
-  padding: 2%;
 }
 
 .navbar-inverse .navbar-nav>li>a{
   color: #484848;
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: 300;
 }
 
@@ -26,11 +29,11 @@ Author's custom styles
 
 /* Main */
 @media all and (max-width: 600px) {
-.carousel-caption h3{
-  text-align: left;
-  font-size: 1em;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 500;
+  .carousel-caption h3{
+    text-align: left;
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
 }
 
 .carousel-caption p{
@@ -58,12 +61,12 @@ Author's custom styles
 }
 
 
-@media all and (min-width: 600px) and (max-width: 1200px) {
-.carousel-caption h3{
-  text-align: left;
-  font-size: 1.35em;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 500;
+@media all and (min-width: 600px) and (max-width: 900px) {
+  .carousel-caption h3{
+    text-align: left;
+    font-size: 1.35em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
 }
 .carousel-caption p{
   text-align: left;
@@ -86,12 +89,40 @@ Author's custom styles
 }
 }
 
-@media all and (min-width: 1200px) {
-.carousel-caption h3{
+@media all and (min-width: 900px) and (max-width: 1200px) {
+  .carousel-caption h3{
+    text-align: left;
+    font-size: 2.55em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+.carousel-caption p{
   text-align: left;
-  font-size: 3.75em;
+  font-size: 1.35em;
   font-family: 'Raleway', sans-serif;
-  font-weight: 500;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.carousel-caption{
+  position: absolute;
+  right: 17%;
+  left: 15%;
+  bottom: 27%;
+}
+
+.carousel-indicators{
+  left: 17%;
+  bottom: 23%;
+}
+}
+
+@media all and (min-width: 1200px) {
+  .carousel-caption h3{
+    text-align: left;
+    font-size: 3.75em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
 }
 
 .carousel-caption p{
@@ -152,6 +183,11 @@ ul.image-row {
   color: white;
   font-size: 1.3em;
   list-style-type: none;
+  margin: 2%;
+}
+
+.image-col i{
+  margin-right: 2%;
 }
 
 
@@ -160,16 +196,78 @@ ul.image-row {
   min-width: 100%;
 }
 
-.about-text{
-  padding: 2% 6% 0% 10%;
+#about{
+  padding: 3% 2%;
+  background-color: #05B5BA;
 }
 
-#contactContainer{
-  background-color: #b5b3b3;
+.img-round{
+  border-radius: 50%;
+}
+
+.img-padding{
+  padding: 3% 1.5% 3% 10%;
+}
+
+.about-text{
+  font-family: 'Raleway', sans-serif;
+  padding: 2% 10% 0% 4%;
+  color: white;
+  font-weight: 200;
+}
+
+.about-text h3{
+  margin-bottom: 4px;
+}
+
+.about-text h4{
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.about-text p{
+  line-height: 1.8em;
+}
+
+@media all and (min-width: 1500px) {
+  .about-text h3{
+    font-size: 2.5em;
+}
+
+.about-text h4{
+  font-size: 1.8em;
+}
+
+.about-text p{
+  font-size: 1.5em;
+}
+}
+
+@media all and (max-width: 767px) {
+  .about-text{
+    text-align: center;
+    padding: 0%;
+}
+
+.about-text p{
+  line-height: 2em;
+  padding: 1% 12%;
+}
+
+.img-padding{
+  padding: 3% 0% 0% 0%;
+}
 }
 
 #contact{
+  background-color: #b5b3b3;
   font-family: 'Raleway', sans-serif;
+}
+
+#contactTitle{
+  padding-top: 9%;
 }
 
 #contact h2{
@@ -179,8 +277,8 @@ ul.image-row {
 
 
 @media all and (min-width: 600px){
-#contact{
-  padding: 0px 10% 0px 10%;
+  #contact{
+    padding: 0px 10% 0px 10%;
 }
 }
 
@@ -224,8 +322,54 @@ button{
   color: white;
 }
 
+.btn-default{
+  background-image: none;
+  text-shadow: none;
+  background-color: #05B5BA;
+  color: black;
+  border: none;
+  margin: 1% 0% 4% 0%;
+}
+
+.float-right{
+  float: right;
+}
+
 
 /* Work Page */
+
+#work{
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+#workTitle{
+  padding-top: 7%;
+  padding-bottom: 4%;
+}
+
+#workContainer{
+  padding-bottom: 20%;
+}
+
+#work h2{
+  height: 4em;
+  line-height: 4em;
+  vertical-align: super;
+  display: inline;
+  margin: 5% 0% 5% 1%;
+  font-weight: 600;
+}
+
+#work .fa-pencil-square{
+  font-size: 4em;
+  color: #05B5BA;
+}
+
+.work-thumbnail{
+  padding: 2%;
+}
+
 .work-caption{
   text-align: center;
 }
@@ -268,20 +412,20 @@ button{
 }
 
 @media all and (max-width: 600px) {
-.projectText{
-  background-color: #ededed;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
-  padding: 5% 15%;
+  .projectText{
+    background-color: #ededed;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    padding: 5% 15%;
 }
 }
 
 @media all and (min-width: 600px) {
-.projectText{
-  background-color: #ededed;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
-  padding: 5% 25%;
+  .projectText{
+    background-color: #ededed;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    padding: 5% 25%;
 }
 }
 
@@ -292,4 +436,13 @@ button{
 
 .projectText p {
   line-height: 200%;
+}
+
+.centered{
+  margin: 0 auto;
+}
+
+.footer{
+  display: inline-block;
+  margin-bottom: 30%;
 }
