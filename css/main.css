@@ -7,7 +7,7 @@ body{
 
 /* NAV */
 .navbar{
-  background-color: #ebebeb;
+  background-color: #05B5BA;
   background-image: none;
   border: none;
 }
@@ -198,7 +198,7 @@ ul.image-row {
 
 #about{
   padding: 3% 2%;
-  background-color: #05B5BA;
+  background-color: #383634;
 }
 
 .img-round{
