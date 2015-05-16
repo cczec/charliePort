@@ -31,7 +31,7 @@ body{
 @media all and (max-width: 600px) {
   .carousel-caption h3{
     text-align: left;
-    font-size: 1em;
+    font-size: 1.25em;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
 }
@@ -41,15 +41,15 @@ body{
   text-align: left;
   font-size: .4em;
   font-family: 'Raleway', sans-serif;
-  font-weight: 100;
+  font-weight: 200;
   letter-spacing: 2px;
 }
 
 .carousel-caption{
   position: absolute;
   right: 50%;
-  left: 15%;
-  bottom: 10%;
+  left: 19%;
+  bottom: 24%;
 }
 
 .carousel-indicators{
@@ -84,7 +84,7 @@ body{
 }
 
 .carousel-indicators{
-  left: 17%;
+  left: 19%;
   bottom: 23%;
 }
 }
@@ -108,12 +108,12 @@ body{
   position: absolute;
   right: 17%;
   left: 15%;
-  bottom: 27%;
+  bottom: 34%;
 }
 
 .carousel-indicators{
   left: 17%;
-  bottom: 23%;
+  bottom: 30%;
 }
 }
 
@@ -137,12 +137,12 @@ body{
   position: absolute;
   right: 17%;
   left: 15%;
-  bottom: 27%;
+  bottom: 42%;
 }
 
 .carousel-indicators{
   left: 17%;
-  bottom: 23%;
+  bottom: 38%;
 }
 }
 
@@ -262,7 +262,7 @@ ul.image-row {
 }
 
 #contact{
-  background-color: #b5b3b3;
+  background-color: #383634;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -273,6 +273,7 @@ ul.image-row {
 #contact h2{
   font-size: 1.8em;
   font-weight: 700;
+  color: #05B5BA;
 }
 
 
@@ -302,6 +303,10 @@ button{
   font-weight: 400;
 }
 
+.link{
+  color: #05B5BA;
+}
+
 .form-control::-webkit-input-placeholder { /* WebKit browsers */
   opacity: .8;
   color: white;
@@ -325,7 +330,7 @@ button{
 .btn-default{
   background-image: none;
   text-shadow: none;
-  background-color: #05B5BA;
+  background-color: #8b8a8a;
   color: black;
   border: none;
   margin: 1% 0% 4% 0%;
