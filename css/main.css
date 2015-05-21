@@ -28,8 +28,17 @@ body{
 }
 
 /* Main */
+#theBarn h3, #theBarn p{
+  color: #303030
+}
+
 @media all and (max-width: 600px) {
-  .carousel-caption h3{
+.brand-icon{
+  height: 55px;
+  width: 55px;
+}
+
+.carousel-caption h3{
     text-align: left;
     font-size: 1.25em;
     font-family: 'Raleway', sans-serif;
