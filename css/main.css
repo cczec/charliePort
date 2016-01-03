@@ -20,7 +20,7 @@ body{
 }
 .navbar-inverse .navbar-nav>li>a:hover{
   color: #ddd;
-    background-color: #F6F6F6;
+    background-color: #484848;
 
 }
 
@@ -218,10 +218,18 @@ ul.image-row {
 
 .img-round{
   border-radius: 50%;
+    width: 20%;
+  height: 20%;
+      margin-left: auto;
+    margin-right: auto;
+     display: block;
+         margin-bottom: 5%;
 }
 
 .img-padding{
-  padding: 3% 1.5% 3% 10%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .about-text{
@@ -370,20 +378,24 @@ button{
 
 #workTitle{
   padding-top: 5%;
-  padding-bottom: 3%;
+  padding-bottom: 5%;
   text-align: center;
   padding-right: 25%;
   padding-left: 25%;
-
+  background-color: #f1f1f1;
+}
+#workTitle > p{
+  margin-top: 10px;  
 }
 
 #workContainer{
-  padding-bottom: 20%;
+  padding-bottom: 9%;
+  padding-top: 9%;
 }
 
 #work h2{
   height: 4em;
-  line-height: 4em;
+  line-height: 1.3em;
   vertical-align: super;
   display: inline;
   margin: 5% 0% 5% 1%;
