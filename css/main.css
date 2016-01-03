@@ -7,19 +7,25 @@ body{
 
 /* NAV */
 .navbar{
-  background-color: #05B5BA;
+  background-color: #ffffff;
   background-image: none;
   border: none;
+
 }
 
 .navbar-inverse .navbar-nav>li>a{
   color: #484848;
   font-size: 1em;
-  font-weight: 300;
+  font-weight: 400;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+  color: #ddd;
+    background-color: #F6F6F6;
+
 }
 
 .navbar-toggle{
-  background-color: #484848;
+  background-color: #F6F6F6;
   border: none;
 }
 
@@ -156,7 +162,7 @@ body{
 }
 
 .navbar-nav{
-  float: right;
+  float: left;
 }
 
 .full-width{
@@ -189,7 +195,7 @@ ul.image-row {
 }
 
 .image-col li{
-  color: white;
+  color: #9a9a9a;
   font-size: 1.3em;
   list-style-type: none;
   margin: 2%;
@@ -207,7 +213,7 @@ ul.image-row {
 
 #about{
   padding: 3% 2%;
-  background-color: #383634;
+  background-color: #f6f6f6;
 }
 
 .img-round{
@@ -271,7 +277,7 @@ ul.image-row {
 }
 
 #contact{
-  background-color: #383634;
+  background-color: #f1f1f1;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -298,7 +304,7 @@ ul.image-row {
 }
 
 .form-control{
-  background-color: #8b8a8a;
+  background-color: #FFFFFF;
   border: none;
   border-radius: 0px;
   box-shadow: none;
@@ -318,12 +324,12 @@ button{
 }
 
 .link{
-  color: #05B5BA;
+  color: #9a9a9a;
 }
 
 .form-control::-webkit-input-placeholder { /* WebKit browsers */
   opacity: .8;
-  color: white;
+  color: #9a9a9a;
 }
 
 .form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
@@ -344,8 +350,8 @@ button{
 .btn-default{
   background-image: none;
   text-shadow: none;
-  background-color: #8b8a8a;
-  color: black;
+  background-color: #05B5BA;
+  color: white;
   border: none;
   margin: 1% 0% 4% 0%;
 }
@@ -363,8 +369,12 @@ button{
 }
 
 #workTitle{
-  padding-top: 7%;
-  padding-bottom: 4%;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  text-align: center;
+  padding-right: 25%;
+  padding-left: 25%;
+
 }
 
 #workContainer{
